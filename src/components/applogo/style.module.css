@@ -1,0 +1,38 @@
+.appLogo {
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.appLogo:hover {
+    cursor: pointer;
+}
+
+.logoSpan {
+    color: var(--cor-secundaria);
+}
+
+.smLogo {
+    display: none;
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.smLogo:hover {
+    cursor: pointer;
+}
+
+.smLogoSpan {
+    color: var(--cor-secundaria);
+}
+
+@media screen and (max-width: 600px) {
+    .appLogo {
+        display: none;
+    }
+
+    .smLogo {
+        display: block;
+    }
+}

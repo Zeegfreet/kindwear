@@ -1,0 +1,53 @@
+.cardLink {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+
+}
+
+
+.card {
+    width: 450px;
+    max-width: 90%;
+    padding: 1em;
+    background-color: var(--cor-realce-claro);
+    box-shadow: 0 0 3.5px var(--cor-terciaria);
+    color: var(--cor-terciaria);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background-color: var(--cor-terciaria);
+    cursor: default;
+}
+
+.card:hover .cardLink {
+    color: var(--cor-primaria);
+
+}
+
+.card:hover .cardTitulo {
+    color: var(--cor-primaria);
+}
+
+.card:active {
+    background-color: var(--cor-realce-claro);
+}
+
+.cardTitulo {
+    color: var(--cor-terciaria);
+    font-weight: 600;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.cardDescricao {
+    padding: 1em;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 5px var(--cor-primaria);
+}
